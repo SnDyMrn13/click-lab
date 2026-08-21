@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
 	<head>
-	<title>Board Games Pop Quiz
-	</title>
-	<link rel="stylesheet"  href="style.css">
+	<title>Board Games Pop Quiz</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
+	<link rel="stylesheet" href="css/card.css">
+	<link rel="stylesheet" href="css/choice-list.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+
 	</head>
 	<body>
 		<header>
@@ -15,15 +19,37 @@
 			</section>
 			
 			<section id="question-1">
-				
-			<h2>1st question: Which game was invented first?</h2>
-				
-				<button type="button" id="clue-button">Clue</button>
-				<button type="button" id="monopoly-button">Monopoly</button>
-				<button type="button" id="scrabble-button">Scrabble</button>
-			
+			<div class="card">	
+				<h2>1st question: Which board game was invented first?</h2>
+					<div class="choice-list">
+						<button type="button" id="clue-button">Clue</button>
+						<button type="button" id="monopoly-button">Monopoly</button>
+						<button type="button" id="scrabble-button">Scrabble</button>
+					</div>
+			</div>
 				
 			</section>
+			
+			<section id="question-2">
+			<div class="card">
+				<h2>2nd question: Which board game is purchased the most?</h2>
+					<div class="choice-list">
+						<button type="button" id="trivialPursuit-button">Trival Pursuit</button>
+						<button type="button" id="monopoly2-button">Monopoly</button>
+						<button type="button" id="scrabble2-button">Scrabble</button>
+					</div>
+			</div>
+			
+			<section id="question-3">
+			<div class="card">
+				<h2>3rd question: Which kids' board game was invented first?</h2>
+					<div class="choice-list">
+						<button type="button" id="mouseTrap-button">The Mouse Trap</button>
+						<button type="button" id="trouble-button">Trouble</button>
+						<button type="button" id="candyland-button">Candyland</button>
+					</div>
+			</div>
+			
 			
 			<section id="answer-section" >
 			<p id="pick-one" >Pick one.</p>
