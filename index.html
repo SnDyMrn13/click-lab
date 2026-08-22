@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html data-theme="light">
 	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Board Games Pop Quiz</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
-	<link rel="stylesheet" href="css/card.css">
+	<link rel="stylesheet" href="css/card.css"> 
 	<link rel="stylesheet" href="css/choice-list.css">
+	<link rel="stylesheet" href="css/scoreboard.css">
+	<link rel="stylesheet" href="css/hero.css">
+	<link rel="stylesheet" href="css/flex-row.css">
 	<link rel="stylesheet" href="css/style.css">
 	
 
@@ -14,47 +19,69 @@
 		</header>
 		<main>
 			<section id="welcome">
+			<div class="hero">
 				<h1 id="headline-1">Board Games Pop Quiz! </h1>
 				<p id="tagline-1"><strong>Things you didn't know - you didn't know!</strong></p>
+			</div>
+			
+				<h3 class="scoreboard">Score</h3>
+				<p id="score-1" class="scoreboard">0</p>
+				
 			</section>
+			<br>
+			<br>
+			<br>
+			<br>
 			
 			<section id="question-1">
 			<div class="card">	
-				<h2>1st question: Which board game was invented first?</h2>
+				<h3>1st question: Which board game was invented first?</h3>
 					<div class="choice-list">
 						<button type="button" id="clue-button">Clue</button>
 						<button type="button" id="monopoly-button">Monopoly</button>
 						<button type="button" id="scrabble-button">Scrabble</button>
 					</div>
+			
+				<section id="answer-section1" >
+				<p id="pick-one1" ><strong>Pick one.</strong></p>
+				<p id="answer-text1"></p>
+				</section>
+			
 			</div>
-				
 			</section>
 			
 			<section id="question-2">
 			<div class="card">
-				<h2>2nd question: Which board game is purchased the most?</h2>
+				<h3>2nd question: Which board game is purchased the most?</h3>
 					<div class="choice-list">
-						<button type="button" id="trivialPursuit-button">Trival Pursuit</button>
+						<button type="button" id="trivialpursuit-button">Trival Pursuit</button>
 						<button type="button" id="monopoly2-button">Monopoly</button>
 						<button type="button" id="scrabble2-button">Scrabble</button>
 					</div>
+					
+				<section id="answer-section2" >
+				<p id="pick-one2" ><strong>Pick one.</strong></p>
+				<p id="answer-text2"></p>
+				</section>	
+					
 			</div>
+			</section>
 			
 			<section id="question-3">
 			<div class="card">
-				<h2>3rd question: Which kids' board game was invented first?</h2>
+				<h3>3rd question: Which kids' board game was invented first?</h3>
 					<div class="choice-list">
-						<button type="button" id="mouseTrap-button">The Mouse Trap</button>
+						<button type="button" id="mousetrap-button">The Mouse Trap</button>
 						<button type="button" id="trouble-button">Trouble</button>
 						<button type="button" id="candyland-button">Candyland</button>
 					</div>
+				<section id="answer-section3" >
+				<p id="pick-one3" ><strong>Pick one.</strong></p>
+				<p id="answer-text3"></p>
+				</section>						
 			</div>
-			
-			
-			<section id="answer-section" >
-			<p id="pick-one" >Pick one.</p>
-			<p id="answer-text"></p>
 			</section>
+			
 		</main>
 		<footer>
 		</footer>
