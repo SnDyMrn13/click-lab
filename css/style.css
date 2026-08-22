@@ -4,11 +4,21 @@ body {
 }
 
 h1{
-	color:crimson;
+	color:white;
+	font-size:40px;
 	
 }
 
 h3{
 	color:green;
 	
+}
+
+p{
+	font-weight:bold;
+}
+
+h4{
+	color:white;
+	font-size:25px;
 }

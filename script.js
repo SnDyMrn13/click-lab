@@ -17,7 +17,7 @@ let answerText3=document.getElementById("answer-text3");
 let pickOne3=document.getElementById("pick-one3");
 let scoreText=document.getElementById("score-1");
 let score=0;
-
+let resetButton=document.getElementById("reset-button");
 
 
 
@@ -105,3 +105,15 @@ troubleButton.addEventListener("click", function(){
 	
 });
 
+resetButton.addEventListener("click", function(){
+	score=0;
+	scoreText.textContent=0;
+	answerText1.textContent="";
+	answerText2.textContent="";
+	answerText3.textContent="";
+	pickOne1.textContent="Pick One";
+	pickOne2.textContent="Pick One";
+	pickOne3.textContent="Pick One";
+	
+	
+});
