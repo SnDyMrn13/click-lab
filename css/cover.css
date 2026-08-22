@@ -1,0 +1,16 @@
+
+.cover {
+  background-image: url("https://media.istockphoto.com/photos/multiple-board-games-and-pieces-picture-id471295821?k=20&m=471295821&s=612x612&w=0&h=veUQ-7EmALgAp4GGqzwybJajSHnKC5z9ptZUyejc6jU=");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 96px 16px;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+.cover h1,
+.cover h2,
+.cover h4{
+ color: #ffffff;
+  text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.8);
+}
