@@ -1,7 +1,7 @@
 
 #Board Games Pop Quiz
 
-![My wireframe] (https://excalidraw.com/#json=PsCBLTFltDJ3J_ijoHhJC,bI3vEurpLxRgecwQV02FDA
+![image alt](Screenshot%202026-08-22%20185830.png)
 
 
 
