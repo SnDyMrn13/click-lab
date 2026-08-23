@@ -1,4 +1,4 @@
-
+/* changed flex direction to row because I liked it better */
 .choice-list {
   display: flex;
   flex-direction: row;

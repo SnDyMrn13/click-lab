@@ -2,7 +2,7 @@ body {
 	background-color:bisque;
 	
 }
-
+/*larger size to show up better in front of cover image. */
 h1{
 	color:white;
 	font-size:40px;
@@ -13,11 +13,11 @@ h3{
 	color:green;
 	
 }
-
+/*gave 'p' tags a bold font weight because when reset button activated it kept sending them back to default "skinny" which made it harder to see them. */
 p{
 	font-weight:bold;
 }
-
+/*increased size to make it show up better in front of cover image */
 h4{
 	color:white;
 	font-size:25px;

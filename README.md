@@ -1,6 +1,6 @@
 
 #Board Games Pop Quiz
-
+/*had to try a few times to get right URL for image */
 ![image alt](Screenshot%202026-08-22%20185830.png)
 
 

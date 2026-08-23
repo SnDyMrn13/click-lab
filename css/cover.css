@@ -8,6 +8,7 @@
   border-radius: 10px;
   margin-bottom: 1.5rem;
 }
+/*had to alter shadowing to make headline and tagline 'pop' in front of cover image. */
 .cover h1,
 .cover h2,
 .cover h4{

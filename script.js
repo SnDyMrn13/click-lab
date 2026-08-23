@@ -104,7 +104,7 @@ troubleButton.addEventListener("click", function(){
 	pickOne3.textContent="";
 	
 });
-
+/*changed font weight to bold to make 'Pick One' stand out after reset function - it kept going to default 'skinny'  */
 resetButton.addEventListener("click", function(){
 	score=0;
 	scoreText.textContent=0;
