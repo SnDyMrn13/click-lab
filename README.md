@@ -1,7 +1,7 @@
 
 #Board Games Pop Quiz
 
-![My wireframe] (185830.png)
+![My wireframe] (https://excalidraw.com/#json=PsCBLTFltDJ3J_ijoHhJC,bI3vEurpLxRgecwQV02FDA
 
 
 
@@ -19,6 +19,7 @@ Board game lovers will enjoy it.
 ## What happens when you click
 
 -click right answer -> score +1
+
 -click wrong answer -> score -1
 
 ## My track
