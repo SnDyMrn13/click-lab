@@ -1,7 +1,9 @@
 
 #Board Games Pop Quiz
 
-![My wireframe] (clicklab project.png)
+![My wireframe] (185830.png)
+
+
 
 
 ## What it is
